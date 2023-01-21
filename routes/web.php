@@ -63,6 +63,8 @@ Route::get('/admin_dashboard', function () {
 //Admin Routes
 Route::group(['middleware' => ['auth', 'admin'], 'prefix' => 'admin'], function () {
     Route::get('/users', [AdminController::class, 'AdminListUser'])->name('admin.list-user');
+    Route::get('/create', [AdminController::class, 'AdminCreateAnnouncement'])->name('admin.create');
+    Route::post('/admin-store', [AdminController::class, 'AdminStoreAnnouncement'])->name('admin.store');
    
 });
 
