@@ -68,6 +68,8 @@ Route::get('/admin_dashboard', function () {
 Route::group(['middleware' => ['auth', 'employee'], 'prefix' => 'employee'], function () {
     Route::get('/create', [EmployeeController::class, 'EmployeeCreateAnnouncement'])->name('employee.create');
     Route::post('/employee-store', [EmployeeController::class, 'EmployeeStoreAnnouncement'])->name('employee.store');
+    Route::get('/{announcement:slug}/edit', [EmployeeController::class, 'EmployeeEditAnnouncement'])->name('employee.edit');
+    Route::put('/announcements/{announcement}/update', [EmployeeController::class, 'EmployeeUpdateAnnouncement'])->name('employee.update-announcement');        //admin update announcement on database
    
 });
 

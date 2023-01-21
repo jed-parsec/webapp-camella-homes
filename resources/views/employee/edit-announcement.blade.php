@@ -22,7 +22,8 @@
         <p style="color:green; margin-bottom:25px">{{session('status')}}</p>
     @endif
 
-    <form action="{{route('admin.update-announcement', $announcement)}}" method="post" enctype="multipart/form-data">
+    <form action="{{route('employee.update-announcement', $announcement)}}" method="post" enctype="multipart/form-data">
+        {{-- <form action="#" method="post" enctype="multipart/form-data"> --}}
         @method('PUT')
       @csrf
 

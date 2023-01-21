@@ -146,7 +146,7 @@
                                             <td class="px-6 py-4">
                                                 {{-- <a href="{{route('announcement.edit', $announcement)}}" class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">Edit</a> --}}
 
-                                                <a href="#" class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">Edit</a>
+                                                <a href="{{route('employee.edit', $announcement)}}" class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">Edit</a>
 
                                                 
                                                 {{-- <a href="{{route('announcement.delete', $announcement)}}" class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">Delete</a> --}}
