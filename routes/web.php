@@ -53,7 +53,8 @@ Route::get('/announcements/{announcement:slug}', [AnnouncementController::class,
 
 // EMPLOYEE DASHBOARD
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    $announcements = Announcement::all();
+    return view('dashboard', compact('announcements'));
 })->middleware(['auth', 'employee'])->name('dashboard');
 
 // ADMIN DASHBOARD
