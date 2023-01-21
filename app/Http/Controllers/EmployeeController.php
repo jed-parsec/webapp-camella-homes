@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Announcement;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 
 
@@ -137,6 +138,13 @@ class EmployeeController extends Controller
 
         
        return redirect()->route('dashboard')->with('status', 'Announcement Updated Successfully');
+    }
+
+    public function EmployeeDeleteAnnouncement ($id) {
+        DB::table("announcements")->where("id", $id)->delete();
+
+        return redirect('dashboard')->with('status', 'Announcement Deleted Successfully');
+
     }
 
 }

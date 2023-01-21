@@ -69,8 +69,9 @@ Route::group(['middleware' => ['auth', 'employee'], 'prefix' => 'employee'], fun
     Route::get('/create', [EmployeeController::class, 'EmployeeCreateAnnouncement'])->name('employee.create');
     Route::post('/employee-store', [EmployeeController::class, 'EmployeeStoreAnnouncement'])->name('employee.store');
     Route::get('/{announcement:slug}/edit', [EmployeeController::class, 'EmployeeEditAnnouncement'])->name('employee.edit');
-    Route::put('/announcements/{announcement}/update', [EmployeeController::class, 'EmployeeUpdateAnnouncement'])->name('employee.update-announcement');        //admin update announcement on database
-   
+    Route::put('/announcements/{announcement}/update', [EmployeeController::class, 'EmployeeUpdateAnnouncement'])->name('employee.update-announcement');        //employee update announcement on database
+    Route::get('/announcements/{announcement}/delete', [EmployeeController::class, 'EmployeeDeleteAnnouncement'])->name('employee.delete-announcement');        //employee delete announcement
+
 });
 
 
