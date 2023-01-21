@@ -5,6 +5,7 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\AnnouncementController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\EmployeeController;
 use App\Http\Controllers\LandingPageController;
 use App\Http\Controllers\PricingController;
 use App\Http\Controllers\ProfileController;
@@ -49,7 +50,7 @@ Route::get('/announcements/{announcement:slug}', [AnnouncementController::class,
 
 
 
-// USER DASHBOARD
+// EMPLOYEE DASHBOARD
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'employee'])->name('dashboard');
@@ -58,6 +59,14 @@ Route::get('/dashboard', function () {
 Route::get('/admin_dashboard', function () {
     return view('admin_dashboard');
 })->middleware(['auth', 'admin'])->name('admin_dashboard');
+
+
+// EMPLOYEEE ROUTE
+Route::group(['middleware' => ['auth', 'employee'], 'prefix' => 'employee'], function () {
+    Route::get('/create', [EmployeeController::class, 'EmployeeCreateAnnouncement'])->name('employee.create');
+    Route::post('/employee-store', [EmployeeController::class, 'EmployeeStoreAnnouncement'])->name('employee.store');
+   
+});
 
 
 
