@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Announcement;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 
 
@@ -133,5 +134,13 @@ class AdminController extends Controller
 
         
        return redirect()->route('admin_dashboard')->with('status', 'Announcement Updated Successfully');
+    }
+
+
+
+    public function AdminDeleteAnnouncement($id) {
+        DB::table("announcements")->where("id", $id)->delete();
+
+        return redirect('admin_dashboard')->with('status', 'Announcement Deleted Successfully');
     }
 }

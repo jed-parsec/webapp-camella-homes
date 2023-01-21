@@ -83,6 +83,7 @@ Route::group(['middleware' => ['auth', 'admin'], 'prefix' => 'admin'], function 
     Route::post('/admin-store', [AdminController::class, 'AdminStoreAnnouncement'])->name('admin.store');
     Route::get('/{announcement:slug}/edit', [AdminController::class, 'AdminEditAnnouncement'])->name('admin.edit');                      //admin edit announcement page
     Route::put('/announcements/{announcement}/update', [AdminController::class, 'AdminUpdateAnnouncement'])->name('admin.update-announcement');        //admin update announcement on database
+    Route::get('/announcements/{announcement}/delete', [AdminController::class, 'AdminDeleteAnnouncement'])->name('admin.delete-announcement');        //admin delete announcement
 
 
 });

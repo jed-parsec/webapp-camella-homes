@@ -6,6 +6,8 @@
         </h2>
     </x-slot>
 
+    
+
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
@@ -129,6 +131,9 @@
                                         </td>
                                     </tr> --}}
 
+                                    
+                                    
+
                                     @foreach ($announcements as $announcement)
                                         <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
                                             <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
@@ -149,14 +154,20 @@
                                                 <a href="{{route('admin.edit', $announcement)}}" class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">Edit</a>
 
                                                 
-                                                {{-- <a href="{{route('announcement.delete', $announcement)}}" class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">Delete</a> --}}
+                                                <a href="{{route('admin.delete-announcement', $announcement)}}" data-modal-target="popup-modal" data-modal-toggle="popup-modal" class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">Delete</a>
 
-                                                <a href="#" class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">Delete</a>
+                                                
+                                                
+
+                                                {{-- <a href="#" class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">Delete</a> --}}
                                             </td>
                                         </tr>
                                     @endforeach
                                 </tbody>
                             </table>
+
+
+                            
                         </div>
 
                      
