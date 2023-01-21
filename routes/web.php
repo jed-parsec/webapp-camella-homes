@@ -11,6 +11,7 @@ use App\Http\Controllers\PricingController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ProjectsController;
 use App\Http\Controllers\ServicesController;
+use App\Models\Announcement;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -57,7 +58,8 @@ Route::get('/dashboard', function () {
 
 // ADMIN DASHBOARD
 Route::get('/admin_dashboard', function () {
-    return view('admin_dashboard');
+    $announcements = Announcement::all();
+    return view('admin_dashboard', compact('announcements'));
 })->middleware(['auth', 'admin'])->name('admin_dashboard');
 
 
