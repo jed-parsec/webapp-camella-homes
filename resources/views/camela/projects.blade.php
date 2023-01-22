@@ -110,10 +110,10 @@
 			<div class="editContent">
 	            <ul class="filter">
 	                <li class="active"><a href="#" data-filter="*">All</a></li>
-	                <li><a href="#" data-filter=".apartments">Grande Houses</a></li>
-	                <li><a href="#" data-filter=".villas">EasyHomes Series</a></li>
-	                <li><a href="#" data-filter=".commercial">L-Series Enclave</a></li>
-	                <li><a href="#" data-filter=".gated">Townhouse Enclave</a></li>
+	                <li><a href="#" data-filter=".grande_houses">Grande Houses</a></li>
+	                <li><a href="#" data-filter=".easyhome_series">EasyHomes Series</a></li>
+	                <li><a href="#" data-filter=".l-series">L-Series Enclave</a></li>
+	                <li><a href="#" data-filter=".townhouse">Townhouse Enclave</a></li>
 	                <li><a href="#" data-filter=".housing">Lot Only (110 sqm)</a></li>
 	            </ul>
 			</div>
@@ -123,17 +123,17 @@
                 <div id="isotope-gallery-container">
 
 
-                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper apartments villas">
+                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper grande_houses greta">
                         <div class="gallery-item">
                             <div class="gallery-thumb">
-                                <img src="img/works/1.jpg" class="img-responsive" alt="1st gallery Thumb">
+                                <img src="img/works/grande_greta.png" class="img-responsive" alt="1st gallery Thumb">
                                 <div class="image-overlay"></div>
-                                <a href="img/works/1.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                                <a href="img/works/grande_greta.png" class="gallery-zoom"><i class="fa fa-eye"></i></a>
                                 <a href="#" class="gallery-link"><i class="fa fa-link"></i></a>
                             </div>
                             <div class="gallery-details">
                             	<div class="editContent">
-	                                <h5>1st gallery Item</h5>
+	                                <h5>Greta House Model</h5>
                             	</div>
                             	<div class="editContent">
 	                                <p>Nullam id dolor id nibh ultricies vehicula.</p>
@@ -143,21 +143,43 @@
                         </div>
                     </div>
 
+					<div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper grande_houses freya">
+                        <div class="gallery-item">
+                            <div class="gallery-thumb">
+                                <img src="img/works/grande_freya.png" class="img-responsive" alt="1st gallery Thumb">
+                                <div class="image-overlay"></div>
+                                <a href="img/works/grande_freya.png" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                                <a href="#" class="gallery-link"><i class="fa fa-link"></i></a>
+                            </div>
+                            <div class="gallery-details">
+                            	<div class="editContent">
+	                                <h5>Freya House Model</h5>
+                            	</div>
+                            	<div class="editContent">
+	                                <p>Nullam id dolor id nibh ultricies vehicula.</p>
+                            	</div>
+                            </div>
+							
+                        </div>
+                    </div>
+
+					
+
 
 
 					
                     <!-- /.gallery-item-wrapper -->
-                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper commercial gated">
+                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper l-series ezabelle">
                         <div class="gallery-item">
                             <div class="gallery-thumb">
-                                <img src="img/works/2.jpg" class="img-responsive" alt="2nd gallery Thumb">
+                                <img src="img/works/l-series_ezabelle.png" class="img-responsive" alt="2nd gallery Thumb">
                                 <div class="image-overlay"></div>
-                                <a href="img/works/2.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                                <a href="img/works/l-series_ezabelle.png" class="gallery-zoom"><i class="fa fa-eye"></i></a>
                                 <a href="#" class="gallery-link"><i class="fa fa-link"></i></a>
                             </div>
                             <div class="gallery-details">
                             	<div class="editContent">
-                                	<h5>2nd gallery Item</h5>
+                                	<h5>Ezabelle House Model</h5>
                             	</div>
                             	<div class="editContent">
                                 	<p>Nullam id dolor id nibh ultricies vehicula.</p>
@@ -166,17 +188,20 @@
                         </div>
                     </div>
                     <!-- /.gallery-item-wrapper -->
-                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper housing apartments">
+
+
+					<!-- /.gallery-item-wrapper -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper l-series criselle">
                         <div class="gallery-item">
                             <div class="gallery-thumb">
-                                <img src="img/works/3.jpg" class="img-responsive" alt="3rd gallery Thumb">
+                                <img src="img/works/l-series_criselle.png" class="img-responsive" alt="2nd gallery Thumb">
                                 <div class="image-overlay"></div>
-                                <a href="img/works/3.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                                <a href="img/works/l-series_criselle.png" class="gallery-zoom"><i class="fa fa-eye"></i></a>
                                 <a href="#" class="gallery-link"><i class="fa fa-link"></i></a>
                             </div>
                             <div class="gallery-details">
                             	<div class="editContent">
-                                	<h5>3rd gallery Item</h5>
+                                	<h5>Ezabelle House Model</h5>
                             	</div>
                             	<div class="editContent">
                                 	<p>Nullam id dolor id nibh ultricies vehicula.</p>
@@ -185,36 +210,19 @@
                         </div>
                     </div>
                     <!-- /.gallery-item-wrapper -->
-                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper villas commercial">
-                        <div class="gallery-item">
-                            <div class="gallery-thumb">
-                                <img src="img/works/4.jpg" class="img-responsive" alt="4th gallery Thumb">
-                                <div class="image-overlay"></div>
-                                <a href="img/works/4.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
-                                <a href="#" class="gallery-link"><i class="fa fa-link"></i></a>
-                            </div>
-                            <div class="gallery-details">
-                            	<div class="editContent">
-                                	<h5>4th gallery Item</h5>
-                            	</div>
-                            	<div class="editContent">
-                                	<p>Nullam id dolor id nibh ultricies vehicula.</p>
-                            	</div>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <!-- /.gallery-item-wrapper -->
-                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper commercial">
+                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper easyhome_series ella">
                         <div class="gallery-item">
                             <div class="gallery-thumb">
-                                <img src="img/works/5.jpg" class="img-responsive" alt="5th gallery Thumb">
+                                <img src="img/works/easyhome_ella.png" class="img-responsive" alt="4th gallery Thumb">
                                 <div class="image-overlay"></div>
-                                <a href="img/works/5.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                                <a href="img/works/easyhome_ella.png" class="gallery-zoom"><i class="fa fa-eye"></i></a>
                                 <a href="#" class="gallery-link"><i class="fa fa-link"></i></a>
                             </div>
                             <div class="gallery-details">
                             	<div class="editContent">
-                                	<h5>5th gallery Item</h5>
+                                	<h5>Ella House Model</h5>
                             	</div>
                             	<div class="editContent">
                                 	<p>Nullam id dolor id nibh ultricies vehicula.</p>
@@ -222,18 +230,18 @@
                             </div>
                         </div>
                     </div>
-                    <!-- /.gallery-item-wrapper -->
-                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper apartments villas">
+
+					<div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper easyhome_series dani">
                         <div class="gallery-item">
                             <div class="gallery-thumb">
-                                <img src="img/works/6.jpg" class="img-responsive" alt="6th gallery Thumb">
+                                <img src="img/works/easyhome_dani.png" class="img-responsive" alt="4th gallery Thumb">
                                 <div class="image-overlay"></div>
-                                <a href="img/works/6.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                                <a href="img/works/easyhome_dani.png" class="gallery-zoom"><i class="fa fa-eye"></i></a>
                                 <a href="#" class="gallery-link"><i class="fa fa-link"></i></a>
                             </div>
                             <div class="gallery-details">
                             	<div class="editContent">
-                                	<h5>6th gallery Item</h5>
+                                	<h5>Dani House Model</h5>
                             	</div>
                             	<div class="editContent">
                                 	<p>Nullam id dolor id nibh ultricies vehicula.</p>
@@ -241,6 +249,110 @@
                             </div>
                         </div>
                     </div>
+
+
+
+					<div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper easyhome_series cara">
+                        <div class="gallery-item">
+                            <div class="gallery-thumb">
+                                <img src="img/works/easyhome_cara.png" class="img-responsive" alt="4th gallery Thumb">
+                                <div class="image-overlay"></div>
+                                <a href="img/works/easyhome_cara.png" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                                <a href="#" class="gallery-link"><i class="fa fa-link"></i></a>
+                            </div>
+                            <div class="gallery-details">
+                            	<div class="editContent">
+                                	<h5>Cara House Model</h5>
+                            	</div>
+                            	<div class="editContent">
+                                	<p>Nullam id dolor id nibh ultricies vehicula.</p>
+                            	</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+					<div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper easyhome_series bella">
+                        <div class="gallery-item">
+                            <div class="gallery-thumb">
+                                <img src="img/works/easyhome_bella.png" class="img-responsive" alt="4th gallery Thumb">
+                                <div class="image-overlay"></div>
+                                <a href="img/works/easyhome_bella.png" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                                <a href="#" class="gallery-link"><i class="fa fa-link"></i></a>
+                            </div>
+                            <div class="gallery-details">
+                            	<div class="editContent">
+                                	<h5>Bella House Model</h5>
+                            	</div>
+                            	<div class="editContent">
+                                	<p>Nullam id dolor id nibh ultricies vehicula.</p>
+                            	</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+					<div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper easyhome_series alli">
+                        <div class="gallery-item">
+                            <div class="gallery-thumb">
+                                <img src="img/works/easyhome_alli.png" class="img-responsive" alt="4th gallery Thumb">
+                                <div class="image-overlay"></div>
+                                <a href="img/works/easyhome_alli.png" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                                <a href="#" class="gallery-link"><i class="fa fa-link"></i></a>
+                            </div>
+                            <div class="gallery-details">
+                            	<div class="editContent">
+                                	<h5>Alli House Model</h5>
+                            	</div>
+                            	<div class="editContent">
+                                	<p>Nullam id dolor id nibh ultricies vehicula.</p>
+                            	</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+					<div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper townhouse alli">
+                        <div class="gallery-item">
+                            <div class="gallery-thumb">
+                                <img src="img/works/townhouse_arielle.png" class="img-responsive" alt="4th gallery Thumb">
+                                <div class="image-overlay"></div>
+                                <a href="img/works/townhouse_arielle.png" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                                <a href="#" class="gallery-link"><i class="fa fa-link"></i></a>
+                            </div>
+                            <div class="gallery-details">
+                            	<div class="editContent">
+                                	<h5>Alli House Model</h5>
+                            	</div>
+                            	<div class="editContent">
+                                	<p>Nullam id dolor id nibh ultricies vehicula.</p>
+                            	</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+					<div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper housing 110-SQM">
+                        <div class="gallery-item">
+                            <div class="gallery-thumb">
+                                <img src="img/works/lot-only_110sqm.png" class="img-responsive" alt="1st gallery Thumb">
+                                <div class="image-overlay"></div>
+                                <a href="img/works/lot-only_110sqm.png" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                                <a href="#" class="gallery-link"><i class="fa fa-link"></i></a>
+                            </div>
+                            <div class="gallery-details">
+                            	<div class="editContent">
+	                                <h5>Lot Only - 110 SQM</h5>
+                            	</div>
+                            	<div class="editContent">
+	                                <p>Nullam id dolor id nibh ultricies vehicula.</p>
+                            	</div>
+                            </div>
+							
+                        </div>
+                    </div>
+
+                    
                     
                 </div>
                 <!-- /.isotope-gallery-container -->

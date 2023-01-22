@@ -140,7 +140,7 @@
             <div class="col-sm-4 md-margin-bottom-40">
                 <img class="img-responsive" src="img/cara-model.png" alt="">            
                 <h3>Cara Model House</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>        
+                <p>Cara is Camella’s family starter house offering, with three bedrooms, two toilet-and-baths, and a provision for a single-car carport and a balcony. Start smart and surround your family with your favorite leisure activities and bring them to your beautiful first home here in Camella.</p>        
             </div>
             <div class="col-sm-4 md-margin-bottom-40">
               <img class="img-responsive" src="img/bella-model.png" alt="">  

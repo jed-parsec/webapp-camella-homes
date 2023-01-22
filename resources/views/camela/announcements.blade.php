@@ -95,8 +95,6 @@
 							<div class="col-md-12">
 								<div class="about-logo">
 									<h2><span class="coloured">Latest</span> Announcements</h2>
-									{{-- <p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
-                                    	<p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p> --}}
                                         <p>
                                             Welcome to our announcements page! Here, you'll find the latest and greatest updates from our real estate team. From new listings to open houses and special events, this is the place to be for all the latest news. Keep an eye on this page for updates on upcoming projects, price reductions on your favorite properties, and much more.</p> <p>We're constantly working to bring you the best in real estate, and we can't wait to share it all with you. Stay tuned for more announcements – we're always excited to share what's new with our clients.
                                         </p>
@@ -110,7 +108,7 @@
     <section id="gallery-1" class="content-block section-wrapper gallery-1">
     	 	<div class="container">
 
-			<div class="editContent">
+			{{-- <div class="editContent">
 	            <ul class="filter">
 	                <li class="active"><a href="#" data-filter="*">All</a></li>
 	                <li><a href="#" data-filter=".apartments">Apartments</a></li>
@@ -119,7 +117,7 @@
 	                <li><a href="#" data-filter=".gated">Gated</a></li>
 	                <li><a href="#" data-filter=".housing">Housing</a></li>
 	            </ul>
-			</div>
+			</div> --}}
             <!-- /.gallery-filter -->
             
             <div class="row">

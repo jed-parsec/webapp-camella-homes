@@ -91,9 +91,9 @@
 						<div class="row"> 
 							<div class="col-md-12">
 								<div class="about-logo">
-									<h2><span class="coloured">Awesome</span> Service</h2>
-									<p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
-                                    	<p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
+									<h2><span class="coloured">Awesome</span> Amenities</h2>
+									<p>Experience the best in luxury living with our awesome amenities. From a regulation-size basketball court and sparkling swimming pool, to beautifully landscaped parks and a playground for children, we have something for everyone. Host events in our clubhouse's event room, relax in our gazebo, and enjoy added security with our entrance gate that features CCTV surveillance and 24/7 monitoring. With so many amenities, you'll never run out of things to do at our community.</p>
+                                    	
 								</div>  
 							</div>
 						</div>
@@ -104,21 +104,21 @@
                 <i class="icon-info-blocks fa fa-check"></i>
                 <div class="info-blocks-in">
                     <h3>Basketball Court</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
+                    <p>Get active on our regulation-size basketball court, perfect for pick-up games or practicing your skills. High-quality hoops and an outdoor setting ensure a great experience. Come and join the fun!</p>
                 </div>
             </div>
             <div class="col-sm-4 info-blocks">
                 <i class="icon-info-blocks fa fa-check"></i>
                 <div class="info-blocks-in">
                     <h3>Clubhouse</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
+                    <p>Our Clubhouse features a fitness center, swimming pool, and lounge areas for residents to relax and socialize. Host events in our clubhouse's event room, or catch up on work in the business center. It's a perfect place to unwind and connect with your neighbours.</p>
                 </div>
             </div>
             <div class="col-sm-4 info-blocks">
                 <i class="icon-info-blocks fa fa-check"></i>
                 <div class="info-blocks-in">
                     <h3>Entrance Gate with CCTV and 24/7</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
+                    <p>Experience added security with our entrance gate that features CCTV surveillance and 24/7 monitoring. You can rest easy knowing that your safety is our top priority.</p>
                 </div>
             </div>
         </div>
@@ -131,21 +131,21 @@
                 <i class="icon-info-blocks fa fa-check"></i>
                 <div class="info-blocks-in">
                     <h3>Gazebo</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
+                    <p>Relax and take in the beautiful scenery under our Gazebo, a perfect spot for picnics and outdoor gatherings.</p>
                 </div>
             </div>
             <div class="col-sm-4 info-blocks">
                 <i class="icon-info-blocks fa fa-check"></i>
                 <div class="info-blocks-in">
                     <h3>Landscaped Parks</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
+                    <p>Experience nature in the heart of the city with our beautifully landscaped parks, perfect for walks and picnics.</p>
                 </div>
             </div>
             <div class="col-sm-4 info-blocks">
                 <i class="icon-info-blocks fa fa-check"></i>
                 <div class="info-blocks-in">
                     <h3>Playground</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
+                    <p>Watch your children play and have fun in our safe and modern playground, featuring a variety of play structures and equipment to keep them active and entertained.</p>
                 </div>
             </div>
         </div>
@@ -155,14 +155,14 @@
                 <i class="icon-info-blocks fa fa-check"></i>
                 <div class="info-blocks-in">
                     <h3>Marketing Tent</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
+                    <p>Promote your brand or business in style with our state-of-the-art marketing tent. With ample space and customizable options, it's perfect for events, trade shows, and outdoor promotions.</p>
                 </div>
             </div>
             <div class="col-sm-4 info-blocks">
                 <i class="icon-info-blocks fa fa-check"></i>
                 <div class="info-blocks-in">
                     <h3>Swimming Pool</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
+                    <p>Take a dip in our sparkling swimming pool, perfect for both exercise and relaxation. With ample space and comfortable lounge chairs, it's the perfect place to spend a hot summer day.</p>
                 </div>
         </div>
 		<br>
@@ -176,20 +176,22 @@
         <!-- End Info Blcoks -->
         <div class="row service-v1 margin-bottom-40">
             <div class="col-md-4 md-margin-bottom-40">
-               <img class="img-responsive" src="img/service1.jpg" alt="">   
-                <h3>Apartments</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus</p>        
+               <img class="img-responsive" src="img/amenities-clubhouse.png" alt="">   
+                <h3>Clubhouse</h3>
+                <p>Relax and socialize in our luxurious clubhouse, equipped with state-of-the-art amenities such as lounge areas, event room, and a business center. It's the perfect place to unwind and connect with your neighbours.</p>        
             </div>
             <div class="col-md-4">
-                <img class="img-responsive" src="img/service2.jpg" alt="">            
-                <h3>luxury Villas</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus</p>        
+                <img class="img-responsive" src="img/amenities-swimming_pool.png" alt="">            
+                <h3>Swimming Pool</h3>
+                <p>Beat into our refreshing swimming pool, perfect for a refreshing dip and relaxation. Well-maintained and with plenty of space, it offers a great spot to cool off and unwind.</p>        
             </div>
             <div class="col-md-4 md-margin-bottom-40">
-              <img class="img-responsive" src="img/service3.jpg" alt="">  
-                <h3>Gated Projects</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus</p>        
+              <img class="img-responsive" src="img/amenities_basketball-court.png" alt="">  
+                <h3>Basketball Court</h3>
+                <p>Get your game on with our regulation-size basketball court, perfect for pick-up games or practicing your skills. High-quality hoops and an outdoor setting make it a great spot to stay active and have fun.</p>        
             </div>
+
+            
         </div>
         <!-- End Service Blcoks -->
  
