@@ -79,12 +79,16 @@ Route::group(['middleware' => ['auth', 'employee'], 'prefix' => 'employee'], fun
 
 //Admin Routes
 Route::group(['middleware' => ['auth', 'admin'], 'prefix' => 'admin'], function () {
-    Route::get('/users', [AdminController::class, 'AdminListUser'])->name('admin.list-user');
+    Route::get('/register');
+    Route::get('/users', [AdminController::class, 'AdminListUsers'])->name('admin.list-user');
     Route::get('/create', [AdminController::class, 'AdminCreateAnnouncement'])->name('admin.create');
     Route::post('/admin-store', [AdminController::class, 'AdminStoreAnnouncement'])->name('admin.store');
     Route::get('/{announcement:slug}/edit', [AdminController::class, 'AdminEditAnnouncement'])->name('admin.edit');                      //admin edit announcement page
     Route::put('/announcements/{announcement}/update', [AdminController::class, 'AdminUpdateAnnouncement'])->name('admin.update-announcement');        //admin update announcement on database
     Route::get('/announcements/{announcement}/delete', [AdminController::class, 'AdminDeleteAnnouncement'])->name('admin.delete-announcement');        //admin delete announcement
+    Route::get('/create-employee', [AdminController::class, 'AdminCreateEmployee'])->name('admin.create-employee');                                    //admin create employee page
+    Route::post('/store-user', [AdminController::class, 'AdminStoreUser'])->name('admin.store-user');                                                  //admin store employee credentials
+    Route::get('/users/{user}/delete', [AdminController::class, 'AdminDeleteUser'])->name('admin.delete-user');                                                      //admin delete employee account
 
 
 });

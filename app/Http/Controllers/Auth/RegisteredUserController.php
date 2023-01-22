@@ -18,11 +18,12 @@ class RegisteredUserController extends Controller
     /**
      * Display the registration view.
      */
-    public function create(): View
+    public function __construct()
     {
-        return view('auth.register');
+        $this->middleware(['auth', 'admin']);
     }
 
+    
     /**
      * Handle an incoming registration request.
      *

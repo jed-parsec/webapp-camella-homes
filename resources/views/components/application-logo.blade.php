@@ -4,4 +4,4 @@
 
 
 
-<img src="img/camella-butuan-logo_classic200x54.png" alt="logo"/>
+<img src="{{asset('img/camella-butuan-logo_classic200x54.png')}}" alt="logo"/>

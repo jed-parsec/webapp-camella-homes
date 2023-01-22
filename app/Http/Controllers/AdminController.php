@@ -3,9 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Models\Announcement;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
 
 
@@ -18,10 +20,14 @@ class AdminController extends Controller
         $this->middleware(['auth', 'admin']);
     }
 
-    public function AdminListUser() {
-        return view ('admin.user-list');
+    public function AdminListUsers() {
+        $users = User::all();
+        return view ('admin.user-list', compact('users'));
     }
 
+    public function AdminCreateEmployee () {
+        return view ('admin.create-employee');
+    }
 
 
 
@@ -142,5 +148,33 @@ class AdminController extends Controller
         DB::table("announcements")->where("id", $id)->delete();
 
         return redirect('admin_dashboard')->with('status', 'Announcement Deleted Successfully');
+    }
+
+
+
+    public function AdminStoreUser(Request $request) {
+        $request->validate([
+            'name' => 'required',
+            'email' => 'required|unique:users',
+            'password' => 'required|min:8'
+        ]);
+    
+        $user = new User;
+        $user->name = $request->name;
+        $user->email = $request->email;
+        $user->password = Hash::make($request->password);
+        $user->save();
+
+
+        return redirect()->action([AdminController::class, 'AdminListUsers'])->with('status', 'Employee Account Created Successfully');
+    }
+
+
+
+    public function AdminDeleteUser($id) {
+        $user = User::findOrFail($id);
+        $user->delete();
+
+        return redirect()->action([AdminController::class, 'AdminListUsers'])->with('status', 'Employee Account Deleted Successfully');
     }
 }
