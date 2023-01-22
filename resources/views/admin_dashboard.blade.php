@@ -12,13 +12,18 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900">
-                    {{ __("Logged In As Admin") }}
+                    {{-- {{ __("Logged In As Admin") }} --}}
                     {{ __("Announcement List") }} <br><br><br>   
                     
                     
                 
                     
                         <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+
+                            <a href="{{route('admin.create')}}">
+                                <button class="h-10 px-5 m-2 text-green-100 transition-colors duration-150 bg-green-500 rounded-lg focus:shadow-outline hover:bg-green-800 float-right">Create Announcement</button>
+                            </a>
+
 
                             @if(session('status'))
                                 <p style="color:green; margin-bottom:25px">{{session('status')}}</p>
@@ -170,6 +175,9 @@
                                                 
                                                     Delete
                                                   </button>
+
+
+                                                  
 </a>
                                                 
                                                 

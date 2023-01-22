@@ -18,6 +18,8 @@
                     
                         <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
 
+                            
+
                             @if(session('status'))
                                 <p style="color:green; margin-bottom:25px">{{session('status')}}</p>
                             @endif
