@@ -8,6 +8,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Validator;
+
 use Illuminate\Support\Str;
 
 
@@ -153,17 +155,24 @@ class AdminController extends Controller
 
 
     public function AdminStoreUser(Request $request) {
-        $request->validate([
-            'name' => 'required',
-            'email' => 'required|unique:users',
-            'password' => 'required|min:8'
+        $validator = Validator::make($request->all(), [
+            'name' => 'required|string|max:255',
+            'email' => 'required|string|email|max:255|unique:users',
+            'password' => 'required|string|min:6|confirmed',
         ]);
-    
+
+        if ($validator->fails()) {
+            return redirect()->back()
+                        ->withErrors($validator)
+                        ->withInput();
+        }
+
         $user = new User;
         $user->name = $request->name;
         $user->email = $request->email;
-        $user->password = Hash::make($request->password);
+        $user->password = bcrypt($request->password);
         $user->save();
+
 
 
         return redirect()->action([AdminController::class, 'AdminListUsers'])->with('status', 'Employee Account Created Successfully');
