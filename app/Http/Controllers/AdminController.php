@@ -88,7 +88,7 @@ class AdminController extends Controller
 
     public function AdminEditAnnouncement ($slug) {
         $announcement = Announcement::where('slug', $slug)->firstOrFail();
-        return view('admin/edit-announcement', compact('announcement'));
+        return view('admin.edit-announcement', compact('announcement'));
     }
 
 
