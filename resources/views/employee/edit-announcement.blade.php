@@ -15,6 +15,16 @@
                     
                     <!-- Container for demo purpose -->
 
+                    <a href="{{route('dashboard')}}">
+                        <button class="inline-flex items-center px-4 py-2 bg-red-500 hover:bg-red-600 text-white text-sm font-medium rounded-md float-right">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6" />
+                            </svg>
+                        
+                            Back
+                          </button>
+                    </a>
+
 
 <div class="container my-24 px-6 mx-auto">
 
@@ -72,9 +82,9 @@
                                 @enderror
                             </div>
 
-                            <div class="flex p-2 py-4">
+                            <div class="flex p-2 py-4 float-right">
                                 
-                                <button role="submit" class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded" >Update Announcement</button>
+                                <button role="submit" class="h-10 px-5 m-2 text-green-100 transition-colors duration-150 bg-green-500 rounded-lg focus:shadow-outline hover:bg-green-800" >Update Announcement</button>
                             </div>
 
                             

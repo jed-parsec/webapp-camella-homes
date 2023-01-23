@@ -89,7 +89,7 @@
                                 @enderror
                             </div>
 
-                            <div class="flex p-2 py-4">
+                            <div class="flex p-2 py-4 float-right">
                                 
                                 <button role="submit" class="h-10 px-5 m-2 text-green-100 transition-colors duration-150 bg-green-500 rounded-lg focus:shadow-outline hover:bg-green-800" >Post Announcement</button>
                             </div>
