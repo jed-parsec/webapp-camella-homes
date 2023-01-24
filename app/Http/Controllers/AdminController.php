@@ -41,8 +41,8 @@ class AdminController extends Controller
         $request->validate([
             'title' => 'required',
             'description' => 'required',
-            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|dimensions:width=500,height=272',
-            // 'image' => 'required | image',
+            // 'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|dimensions:width=500,height=272',
+            'image' => 'required | image',
             'body' => 'required'
             
         ]);
@@ -99,8 +99,8 @@ class AdminController extends Controller
         $request->validate([
             'title' => 'required',
             'description' => 'required',
-            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|dimensions:width=500,height=272',
-            // 'image' => 'required | image',
+            // 'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|dimensions:width=500,height=272',
+            'image' => 'required | image',
             'body' => 'required'
             
         ]);

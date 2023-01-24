@@ -82,25 +82,49 @@
 	<!-- Slider -->
         <div id="main-slider" class="flexslider">
             <ul class="slides">
-              <li>
-				<img src="img/slides/camella1_1920x700.png" alt="" />
+              @foreach ($announcements as $announcement )
+
+			  <li>
+				<img src="{{asset($announcement->imagePath)}}" alt="" />
                 <div class="flex-caption">
-                    {{-- <h3>Gated Villas</h3>   --}}
+					<h1>Announcements</h1><br>
+                    <a href="#"><h3>{{$announcement->title}}</h3></a>
+					<p>{{$announcement->description}}</p>
+					
+					
+					
 					 
-                </div>
+                </div>	
               </li>
-              <li>
+				
+			  @endforeach
+			  
+              {{-- <li>
                 <img src="img/slides/camella-homes-header1920x700.png" alt="" />
                 <div class="flex-caption">
-                    {{-- <h3>Trendy Home</h3>   --}}
+					<h1>Announcements</h1><br>
+
+                    <h3>Trendy Home</h3>  
 					 
                 </div>
               </li>
+
+			  <li>
+				<img src="img/slides/camella1_1920x700.png" alt="" />
+                <div class="flex-caption">
+					<h1>Announcements</h1><br>
+
+                    <h3>Gated Villas</h3>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit beatae dolorem enim incidunt harum, ea nobis voluptatem, non eligendi quam fugiat porro cum tenetur qui quia, cumque aliquid odio dolore!</p>  
+					 
+                </div> --}}
             </ul>
         </div>
 	<!-- end slider -->
  
 	</section>
+
+	
 	
 	<section class="section-padding gray-bg">
 		<div class="container">
@@ -346,6 +370,10 @@
 <script src="js/jquery.magnific-popup.min.js"></script>
 <script src="js/animate.js"></script>
 <script src="js/custom.js"></script> 
+
+
+
+
 </body>
 
 <!-- Mirrored from webthemez.com/demo/myhome-real-estate-website-template/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 06 Jan 2023 15:44:04 GMT -->
