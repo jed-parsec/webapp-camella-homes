@@ -31,8 +31,8 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <p class="pull-left hidden-xs"><i class="fa fa-clock-o"></i><span>Mon - Sat 8.00 - 18.00. Sunday CLOSED</span>
-        <p class="pull-right"><i class="fa fa-phone"></i>Cellphone No. (+63) 95 922 6540</p>
+		<p class="pull-left hidden-xs"><i class="fa fa-clock-o"></i><span>Mon - Sun 9:00 AM - 6:00 PM</span>
+			<p class="pull-right"><i class="fa fa-phone"></i>Cellphone No. (+63) 94 234 31765</p>
       </div>
     </div>
   </div>
@@ -62,7 +62,7 @@
 						{{-- <li><a class="{{Request::routeIs('about.index') ? 'active' : ''}}" href="{{route('about.index')}}">About Us</a></li> --}}
 						<li><a class="{{Request::routeIs('services.index') ? 'active' : ''}}" href="{{route('services.index')}}">Amenities</a></li>
                         <li><a class="{{Request::routeIs('projects.index') ? 'active' : ''}}" href="{{route('projects.index')}}">Properties</a></li>
-                        <li><a class="{{Request::routeIs('pricing.index') ? 'active' : ''}}" href="{{route('pricing.index')}}">Pricing</a></li>
+                        {{-- <li><a class="{{Request::routeIs('pricing.index') ? 'active' : ''}}" href="{{route('pricing.index')}}">Pricing</a></li> --}}
 						{{-- <li class="dropdown">
 							<a href="#" data-toggle="dropdown" class="dropdown-toggle">What's New <b class="caret"></b></a>
 							<ul class="dropdown-menu">
@@ -95,8 +95,9 @@
 							<div class="col-md-12">
 								<div class="about-logo">
 									<h2><span class="coloured">House</span> Models</h2>
-									<p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
-                                    	<p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
+									<p>
+										Camella offers quality homes in Mindanao Philippines at prices you can afford. Camella has developed thousands of homes for more than 45 years and has become one of the most trusted brands in the real estate industry. Each of our projects comes with complete amenities including entrance gate, clubhouse, jogging paths, parks, playground and basketball court.</p>
+										<p>Please feel free to browse through our catalogue and contact us for house viewing or online presentation! Our team will assist you every step of the way!</p>
 								</div>  
 							</div>
 						</div> 
@@ -136,7 +137,14 @@
 	                                <h5>Greta House Model</h5>
                             	</div>
                             	<div class="editContent">
-	                                <p>Nullam id dolor id nibh ultricies vehicula.</p>
+	                                <p>Lot Area: 143 sqm </p>
+									<p>FLoor Area: 166 sqm </p>
+									<p>Bedrooms: 5</p>
+									<p> Toilet & Bath: 3</p>
+									<p>Car Port: 2</p>
+									<p>Total Contract Price: &#8369 11,468,790</p>
+									<p>Monthly: &#8369 25,000</p>
+									<p>Reservation Fee: &#8369 50,000</p>
                             	</div>
                             </div>
 							
@@ -157,7 +165,14 @@
 	                                <h5>Freya House Model</h5>
                             	</div>
                             	<div class="editContent">
-	                                <p>Nullam id dolor id nibh ultricies vehicula.</p>
+	                                <p>Lot Area: 160 sqm </p>
+									<p>FLoor Area: 142 sqm </p>
+									<p>Bedrooms: 5</p>
+									<p> Toilet & Bath: 3</p>
+									<p>Car Port: 2</p>
+									<p>Total Contract Price: &#8369 11,410,945</p>
+									<p>Monthly: &#8369 25,000</p>
+									<p>Reservation Fee: &#8369 70,000</p>
                             	</div>
                             </div>
 							
@@ -183,7 +198,14 @@
                                 	<h5>Ezabelle House Model</h5>
                             	</div>
                             	<div class="editContent">
-                                	<p>Nullam id dolor id nibh ultricies vehicula.</p>
+                                	<p>Lot Area: 160 sqm </p>
+									<p>FLoor Area: 142 sqm </p>
+									<p>Bedrooms: 5</p>
+									<p> Toilet & Bath: 3</p>
+									<p>Car Port: 2</p>
+									<p>Total Contract Price: &#8369 11,410,945</p>
+									<p>Monthly: &#8369 25,000</p>
+									<p>Reservation Fee: &#8369 70,000</p>
                             	</div>
                             </div>
                         </div>
@@ -202,10 +224,17 @@
                             </div>
                             <div class="gallery-details">
                             	<div class="editContent">
-                                	<h5>Ezabelle House Model</h5>
+                                	<h5>Criselle House Model</h5>
                             	</div>
                             	<div class="editContent">
-                                	<p>Nullam id dolor id nibh ultricies vehicula.</p>
+                                	<p>Lot Area: 143 sqm </p>
+									<p>FLoor Area: 166 sqm </p>
+									<p>Bedrooms: 5</p>
+									<p> Toilet & Bath: 3</p>
+									<p>Car Port: 2</p>
+									<p>Total Contract Price: &#8369 11,468,790</p>
+									<p>Monthly: &#8369 25,000</p>
+									<p>Reservation Fee: &#8369 50,000</p>
                             	</div>
                             </div>
                         </div>
@@ -226,7 +255,14 @@
                                 	<h5>Ella House Model</h5>
                             	</div>
                             	<div class="editContent">
-                                	<p>Nullam id dolor id nibh ultricies vehicula.</p>
+                                	<p>Lot Area: 110 sqm </p>
+									<p>FLoor Area: 100 sqm </p>
+									<p>Bedrooms: 5</p>
+									<p> Toilet & Bath: 3</p>
+									<p>Car Port: 1</p>
+									<p>Total Contract Price: &#8369 6,893,775</p>
+									<p>Monthly: &#8369 15,000</p>
+									<p>Reservation Fee: &#8369 50,000</p>
                             	</div>
                             </div>
                         </div>
@@ -245,7 +281,14 @@
                                 	<h5>Dani House Model</h5>
                             	</div>
                             	<div class="editContent">
-                                	<p>Nullam id dolor id nibh ultricies vehicula.</p>
+                                	<p>Lot Area: 99 sqm </p>
+									<p>FLoor Area: 83 sqm </p>
+									<p>Bedrooms: 4</p>
+									<p> Toilet & Bath: 3</p>
+									<p>Car Port: 1</p>
+									<p>Total Contract Price: &#8369 6,496,125</p>
+									<p>Monthly: &#8369 15,000</p>
+									<p>Reservation Fee: &#8369 50,000</p>
                             	</div>
                             </div>
                         </div>
@@ -266,7 +309,14 @@
                                 	<h5>Cara House Model</h5>
                             	</div>
                             	<div class="editContent">
-                                	<p>Nullam id dolor id nibh ultricies vehicula.</p>
+                                	<p>Lot Area: 88 sqm </p>
+									<p>FLoor Area: 66 sqm </p>
+									<p>Bedrooms: 3</p>
+									<p> Toilet & Bath: 2</p>
+									<p>Car Port: 1</p>
+									<p>Total Contract Price: &#8369 5,176,900</p>
+									<p>Monthly: &#8369 15,000</p>
+									<p>Reservation Fee: &#8369 40,000</p>
                             	</div>
                             </div>
                         </div>
@@ -286,7 +336,14 @@
                                 	<h5>Bella House Model</h5>
                             	</div>
                             	<div class="editContent">
-                                	<p>Nullam id dolor id nibh ultricies vehicula.</p>
+                                	<p>Lot Area: 88 sqm </p>
+									<p>FLoor Area: 53 sqm </p>
+									<p>Bedrooms: 2</p>
+									<p> Toilet & Bath: 2</p>
+									<p>Car Port: 1</p>
+									<p>Total Contract Price: &#8369 4,689,598</p>
+									<p>Monthly: &#8369 15,000</p>
+									<p>Reservation Fee: &#8369 40,000</p>
                             	</div>
                             </div>
                         </div>
@@ -306,7 +363,14 @@
                                 	<h5>Alli House Model</h5>
                             	</div>
                             	<div class="editContent">
-                                	<p>Nullam id dolor id nibh ultricies vehicula.</p>
+                                	<p>Lot Area: 88 sqm </p>
+									<p>FLoor Area: 40 sqm </p>
+									<p>Bedrooms: 2</p>
+									<p> Toilet & Bath: 1</p>
+									<p>Car Port: 1</p>
+									<p>Total Contract Price: &#8369 3,486,140</p>
+									<p>Monthly: &#8369 15,000</p>
+									<p>Reservation Fee: &#8369 30,000</p>
                             	</div>
                             </div>
                         </div>
@@ -323,10 +387,17 @@
                             </div>
                             <div class="gallery-details">
                             	<div class="editContent">
-                                	<h5>Alli House Model</h5>
+                                	<h5>Arielle House Model</h5>
                             	</div>
                             	<div class="editContent">
-                                	<p>Nullam id dolor id nibh ultricies vehicula.</p>
+                                	<p>Lot Area: 77 sqm </p>
+									<p>FLoor Area: 36 sqm </p>
+									<p>Bedrooms: 2</p>
+									<p> Toilet & Bath: 1</p>
+									<p>Car Port: None</p>
+									<p>Total Contract Price: &#8369 2,955,295</p>
+									<p>Monthly: &#8369 10,000</p>
+									<p>Reservation Fee: &#8369 20,000</p>
                             	</div>
                             </div>
                         </div>
@@ -346,7 +417,14 @@
 	                                <h5>Lot Only - 110 SQM</h5>
                             	</div>
                             	<div class="editContent">
-	                                <p>Nullam id dolor id nibh ultricies vehicula.</p>
+	                                <p>Lot Area: 110 sqm </p>
+									<p>FLoor Area: 0 sqm </p>
+									<p>Bedrooms: None</p>
+									<p> Toilet & Bath: None</p>
+									<p>Car Port: None</p>
+									<p>Total Contract Price: &#8369 2,747,275</p>
+									<p>Monthly: &#8369 0</p>
+									<p>Reservation Fee: &#8369 20,000</p>
                             	</div>
                             </div>
 							
@@ -365,81 +443,80 @@
     <!--// End Gallery 1-2 -->  
 	</div>
 	<footer>
-	<div class="container">
-	
-		<div class="row">
-			<div class="col-sm-3">
-				<div class="widget">
-					<h5 class="widgetheading">Our Contact</h5>
-					<address>
-					<strong>MyHome Inc</strong><br>
-					JC Main Road, Near Silnile tower<br>
-					 Pin-21542 NewYork US.</address>
-					<p>
-						<i class="icon-phone"></i> (123) 456-789 - 1255-12584 <br>
-						<i class="icon-envelope-alt"></i> email@domainname.com
-					</p>
-				</div>
-			</div>
-			<div class="col-sm-3">
-				<div class="widget">
-					<h5 class="widgetheading">Quick Links</h5>
-					<ul class="link-list">
-						<li><a href="#">Latest Events</a></li>
-						<li><a href="#">Terms and conditions</a></li>
-						<li><a href="#">Privacy policy</a></li>
-						<li><a href="#">Career</a></li>
-						<li><a href="#">Contact us</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-sm-3">
-				<div class="widget">
-					<h5 class="widgetheading">Latest posts</h5>
-					<ul class="link-list">
-						<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-						<li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
-						<li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-sm-3">
-					<div class="widget">
-					<h5 class="widgetheading">Recent News</h5>
-					<ul class="link-list">
-						<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-						<li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
-						<li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id="sub-footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-6">
-					<div class="copyright">
+				<div class="col-sm-3">
+					<div class="widget">
+						<h5 class="widgetheading">Our Contact</h5>
+						<address>
+						<strong>Camella Butuan</strong><br>
+						Daang Maharlika Highway, Butuan City<br>
+						8600 Agusan Del Norte</address>
 						<p>
-							<span>&copy; Camella Homes Butuan 2023 All right reserved. Click Here To </span><a href="/login" target="_blank">Login</a>
+							<i class="icon-phone"></i> (+63) 94 234 31765 <br>
+							<i class="icon-envelope-alt"></i> camellamindanao.sales@gmail.com
+	
 						</p>
 					</div>
 				</div>
-				<div class="col-sm-6">
-					<ul class="social-network">
-						<li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
-						<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
-					</ul>
+				<div class="col-sm-3">
+					<div class="widget">
+						<h5 class="widgetheading">Quick Links</h5>
+						<ul class="link-list">
+							<li><a href="{{route('landing.index')}}">Home</a></li>
+							<li><a href="{{route('about.index')}}">About Us</a></li>
+							<li><a href="{{route('services.index')}}">Amenities</a></li>
+							<li><a href="{{route('projects.index')}}">Properties</a></li>
+							{{-- <li><a href="{{route('pricing.index')}}">Pricing</a></li> --}}
+							<li><a href="{{route('contact.index')}}">Contact us</a></li>
+						</ul>
+					</div>
+				</div>
+				{{-- <div class="col-sm-3">
+					<div class="widget">
+						<h5 class="widgetheading">Latest posts</h5>
+						<ul class="link-list">
+							<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
+							<li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
+							<li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="widget">
+						<h5 class="widgetheading">Recent News</h5>
+						<ul class="link-list">
+							<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
+							<li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
+							<li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
+						</ul>
+					</div>
+				</div> --}}
+			</div>
+		</div>
+		<div id="sub-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="copyright">
+							<p>
+								<span>&copy; Camella Homes Butuan 2023 All right reserved. Click Here To </span><a href="/login" target="_blank">Login</a>
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<ul class="social-network">
+							<li><a href="https://www.facebook.com/OfficialCamellaButuan/" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://twitter.com/camellamindawow" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+							
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
+		</footer>
 	</div>
-	</footer>
-</div>
-<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+	<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
 <!-- javascript
     ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->

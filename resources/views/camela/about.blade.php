@@ -28,7 +28,7 @@
     <div class="row">
       <div class="col-md-12">
 		<p class="pull-left hidden-xs"><i class="fa fa-clock-o"></i><span>Mon - Sun 9:00 AM - 6:00 PM</span>
-		<p class="pull-right"><i class="fa fa-phone"></i>Cellphone No. (+63) 95 922 6540</p>
+		<p class="pull-right"><i class="fa fa-phone"></i>Cellphone No. (+63) 94 234 31765</p>
       </div>
     </div>
   </div>
@@ -58,7 +58,7 @@
 						{{-- <li><a class="{{Request::routeIs('about.index') ? 'active' : ''}}" href="{{route('about.index')}}">About Us</a></li> --}}
 						<li><a class="{{Request::routeIs('services.index') ? 'active' : ''}}" href="{{route('services.index')}}">Amenities</a></li>
                         <li><a class="{{Request::routeIs('projects.index') ? 'active' : ''}}" href="{{route('projects.index')}}">Properties</a></li>
-                        <li><a class="{{Request::routeIs('pricing.index') ? 'active' : ''}}" href="{{route('pricing.index')}}">Pricing</a></li>
+                        {{-- <li><a class="{{Request::routeIs('pricing.index') ? 'active' : ''}}" href="{{route('pricing.index')}}">Pricing</a></li> --}}
 						{{-- <li class="dropdown">
 							<a href="#" data-toggle="dropdown" class="dropdown-toggle">What's New <b class="caret"></b></a>
 							<ul class="dropdown-menu">
@@ -325,80 +325,80 @@
 				</div> --}}
 	</section>
 	<footer>
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-3">
-				<div class="widget">
-					<h5 class="widgetheading">Our Contact</h5>
-					<address>
-					<strong>MyHome Inc</strong><br>
-					JC Main Road, Near Silnile tower<br>
-					 Pin-21542 NewYork US.</address>
-					<p>
-						<i class="icon-phone"></i> (123) 456-789 - 1255-12584 <br>
-						<i class="icon-envelope-alt"></i> email@domainname.com
-					</p>
-				</div>
-			</div>
-			<div class="col-sm-3">
-				<div class="widget">
-					<h5 class="widgetheading">Quick Links</h5>
-					<ul class="link-list">
-						<li><a href="#">Latest Events</a></li>
-						<li><a href="#">Terms and conditions</a></li>
-						<li><a href="#">Privacy policy</a></li>
-						<li><a href="#">Career</a></li>
-						<li><a href="#">Contact us</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-sm-3">
-				<div class="widget">
-					<h5 class="widgetheading">Latest posts</h5>
-					<ul class="link-list">
-						<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-						<li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
-						<li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-sm-3">
-					<div class="widget">
-					<h5 class="widgetheading">Recent News</h5>
-					<ul class="link-list">
-						<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-						<li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
-						<li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id="sub-footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-6">
-					<div class="copyright">
+				<div class="col-sm-3">
+					<div class="widget">
+						<h5 class="widgetheading">Our Contact</h5>
+						<address>
+						<strong>Camella Butuan</strong><br>
+						Daang Maharlika Highway, Butuan City<br>
+						8600 Agusan Del Norte</address>
 						<p>
-							<span>&copy; Camella Homes Butuan 2023 All right reserved. Click Here To </span><a href="/login" target="_blank">Login</a>
+							<i class="icon-phone"></i> (+63) 94 234 31765 <br>
+							<i class="icon-envelope-alt"></i> camellamindanao.sales@gmail.com
+	
 						</p>
 					</div>
 				</div>
-				<div class="col-sm-6">
-					<ul class="social-network">
-						<li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
-						<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
-					</ul>
+				<div class="col-sm-3">
+					<div class="widget">
+						<h5 class="widgetheading">Quick Links</h5>
+						<ul class="link-list">
+							<li><a href="{{route('landing.index')}}">Home</a></li>
+							<li><a href="{{route('about.index')}}">About Us</a></li>
+							<li><a href="{{route('services.index')}}">Amenities</a></li>
+							<li><a href="{{route('projects.index')}}">Properties</a></li>
+							{{-- <li><a href="{{route('pricing.index')}}">Pricing</a></li> --}}
+							<li><a href="{{route('contact.index')}}">Contact us</a></li>
+						</ul>
+					</div>
+				</div>
+				{{-- <div class="col-sm-3">
+					<div class="widget">
+						<h5 class="widgetheading">Latest posts</h5>
+						<ul class="link-list">
+							<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
+							<li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
+							<li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="widget">
+						<h5 class="widgetheading">Recent News</h5>
+						<ul class="link-list">
+							<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
+							<li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
+							<li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
+						</ul>
+					</div>
+				</div> --}}
+			</div>
+		</div>
+		<div id="sub-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="copyright">
+							<p>
+								<span>&copy; Camella Homes Butuan 2023 All right reserved. Click Here To </span><a href="/login" target="_blank">Login</a>
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<ul class="social-network">
+							<li><a href="https://www.facebook.com/OfficialCamellaButuan/" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://twitter.com/camellamindawow" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+							
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
+		</footer>
 	</div>
-	</footer>
-</div>
-<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+	<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
 <!-- javascript
     ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->

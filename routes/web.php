@@ -44,7 +44,7 @@ Route::get('/', [LandingPageController::class, 'index'])->name('landing.index');
 Route::get('/about', [AboutController::class, 'index'])->name('about.index');
 Route::get('/announcements', [AnnouncementController::class, 'index'])->name('announcements.index');
 Route::get('/contact-us', [ContactController::class, 'index'])->name('contact.index');
-Route::get('/pricing', [PricingController::class, 'index'])->name('pricing.index');
+// Route::get('/pricing', [PricingController::class, 'index'])->name('pricing.index');
 Route::get('/properties', [ProjectsController::class, 'index'])->name('projects.index');
 Route::get('/services', [ServicesController::class, 'index'])->name('services.index');
 Route::get('/announcements/{announcement:slug}', [AnnouncementController::class, 'show'])->name('announcements.show');          //single announcement page
