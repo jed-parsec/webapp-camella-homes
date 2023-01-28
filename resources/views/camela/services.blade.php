@@ -28,7 +28,7 @@
     <div class="row">
       <div class="col-md-12">
         <p class="pull-left hidden-xs"><i class="fa fa-clock-o"></i><span>Mon - Sat 8.00 - 18.00. Sunday CLOSED</span>
-        <p class="pull-right"><i class="fa fa-phone"></i>Tel No. (+001) 123-456-789</p>
+        <p class="pull-right"><i class="fa fa-phone"></i>Cellphone No. (+63) 95 922 6540</p>
       </div>
     </div>
   </div>
@@ -49,14 +49,14 @@
                     <ul class="nav navbar-nav">
 						<li><a class="{{Request::routeIs('landing.index') ? 'active' : ''}}" href="{{route('landing.index')}}">Home</a></li>
 						 <li class="dropdown">
-                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">About Us <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="{{route('about.index')}}">Company</a></li>
-                            <li><a href="{{route('announcements.index')}}">Announcements</a></li>
-                        </ul>
+                            <a href="{{route('about.index')}}" class="dropdown-toggle">About Us <b class="caret"></b></a>
+                            {{-- <ul class="dropdown-menu">
+                                <li><a href="{{route('about.index')}}">Company</a></li>
+                                <li><a href="{{route('announcements.index')}}">Announcements</a></li>
+                            </ul> --}}
                     </li> 
 						{{-- <li><a class="{{Request::routeIs('about.index') ? 'active' : ''}}" href="{{route('about.index')}}">About Us</a></li> --}}
-						<li><a class="{{Request::routeIs('services.index') ? 'active' : ''}}" href="{{route('services.index')}}">Services</a></li>
+						<li><a class="{{Request::routeIs('services.index') ? 'active' : ''}}" href="{{route('services.index')}}">Amenities</a></li>
                         <li><a class="{{Request::routeIs('projects.index') ? 'active' : ''}}" href="{{route('projects.index')}}">Properties</a></li>
                         <li><a class="{{Request::routeIs('pricing.index') ? 'active' : ''}}" href="{{route('pricing.index')}}">Pricing</a></li>
 						{{-- <li class="dropdown">
@@ -79,7 +79,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<h2 class="pageTitle">Services</h2>
+				<h2 class="pageTitle">Amenities</h2>
 			</div>
 		</div>
 	</div>
@@ -91,7 +91,7 @@
 						<div class="row"> 
 							<div class="col-md-12">
 								<div class="about-logo">
-									<h2><span class="coloured">Awesome</span> Amenities</h2>
+									<h2><span class="coloured">Awesome</span> Facilities</h2>
 									<p>Experience the best in luxury living with our awesome amenities. From a regulation-size basketball court and sparkling swimming pool, to beautifully landscaped parks and a playground for children, we have something for everyone. Host events in our clubhouse's event room, relax in our gazebo, and enjoy added security with our entrance gate that features CCTV surveillance and 24/7 monitoring. With so many amenities, you'll never run out of things to do at our community.</p>
                                     	
 								</div>  
@@ -256,7 +256,7 @@
 				<div class="col-sm-6">
 					<div class="copyright">
 						<p>
-							<span>&copy; Bootstrap Template 2018 All right reserved. Template By </span><a href="http://webthemez.com/free-bootstrap-templates/" target="_blank">WebThemez</a>
+							<span>&copy; Camella Homes Butuan 2023 All right reserved. Click Here To </span><a href="/login" target="_blank">Login</a>
 						</p>
 					</div>
 				</div>

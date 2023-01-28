@@ -53,14 +53,14 @@
                     <ul class="nav navbar-nav">
 						<li><a class="{{Request::routeIs('landing.index') ? 'active' : ''}}" href="{{route('landing.index')}}">Home</a></li>
 						 <li class="dropdown">
-                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">About Us <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="{{route('about.index')}}">Company</a></li>
-                            <li><a href="{{route('announcements.index')}}">Announcements</a></li>
-                        </ul>
+							<a href="{{route('about.index')}}" class="dropdown-toggle">About Us <b class="caret"></b></a>
+							{{-- <ul class="dropdown-menu">
+								<li><a href="{{route('about.index')}}">Company</a></li>
+								<li><a href="{{route('announcements.index')}}">Announcements</a></li>
+							</ul> --}}
                     </li> 
 						{{-- <li><a class="{{Request::routeIs('about.index') ? 'active' : ''}}" href="{{route('about.index')}}">About Us</a></li> --}}
-						<li><a class="{{Request::routeIs('services.index') ? 'active' : ''}}" href="{{route('services.index')}}">Services</a></li>
+						<li><a class="{{Request::routeIs('services.index') ? 'active' : ''}}" href="{{route('services.index')}}">Amenities</a></li>
                         <li><a class="{{Request::routeIs('projects.index') ? 'active' : ''}}" href="{{route('projects.index')}}">Properties</a></li>
                         <li><a class="{{Request::routeIs('pricing.index') ? 'active' : ''}}" href="{{route('pricing.index')}}">Pricing</a></li>
 						{{-- <li class="dropdown">
@@ -325,7 +325,7 @@
 				<div class="col-sm-6">
 					<div class="copyright">
 						<p>
-							<span>&copy; Bootstrap Template 2018 All right reserved. Template By </span><a href="http://webthemez.com/free-bootstrap-templates/" target="_blank">WebThemez</a>
+							<span>&copy; Camella Homes Butuan 2023 All right reserved. Click Here To </span><a href="/login" target="_blank">Login</a>
 						</p>
 					</div>
 				</div>
