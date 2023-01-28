@@ -27,8 +27,8 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <p class="pull-left hidden-xs"><i class="fa fa-clock-o"></i><span>Mon - Sat 8.00 - 18.00. Sunday CLOSED</span>
-        <p class="pull-right"><i class="fa fa-phone"></i>Cellphone No. (+63) 95 922 6540</p>
+		<p class="pull-left hidden-xs"><i class="fa fa-clock-o"></i><span>Mon - Sun 9:00 AM - 6:00 PM</span>
+		<p class="pull-right"><i class="fa fa-phone"></i>Cellphone No. (+63) 95 922 6540</p>
       </div>
     </div>
   </div>

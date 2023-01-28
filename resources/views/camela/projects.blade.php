@@ -142,6 +142,7 @@
 							
                         </div>
                     </div>
+					
 
 					<div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper grande_houses freya">
                         <div class="gallery-item">
