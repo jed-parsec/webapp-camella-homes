@@ -366,6 +366,8 @@
 						<ul class="social-network">
 							<li><a href="https://www.facebook.com/OfficialCamellaButuan/" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
 							<li><a href="https://twitter.com/camellamindawow" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="https://www.instagram.com/camellaofficial" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+
 							
 						</ul>
 					</div>

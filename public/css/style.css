@@ -1742,6 +1742,8 @@ padding-top: 3px;
 		margin: 2px 0;
 	}
 
+	
+
 
 
 }
@@ -1759,6 +1761,18 @@ padding-top: 3px;
 	height: 0;
 	overflow: hidden;
 	}
+
+
+
+@media (max-width: 767px) {
+	.map-container {
+	position: relative;
+	padding-bottom: 50%;
+	height: 0;
+	overflow: hidden;
+	}
+}
+
 	
 .map-container iframe {
 	position: absolute;
