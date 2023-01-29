@@ -51,8 +51,8 @@
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
 						<li><a class="{{Request::routeIs('landing.index') ? 'active' : ''}}" href="{{route('landing.index')}}">Home</a></li>
-						 <li class="dropdown">
-							<a href="{{route('about.index')}}" class="dropdown-toggle">About Us <b class="caret"></b></a>
+						 <li >
+							<a href="{{route('about.index')}}" >About Us</a>
 							{{-- <ul class="dropdown-menu">
 								<li><a href="{{route('about.index')}}">Company</a></li>
 								<li><a href="{{route('announcements.index')}}">Announcements</a></li>
@@ -137,11 +137,17 @@
 	    <button type="submit" class="btn btn-primary pull-right">Send</button><br />
           </form>
 								</div>
-								<div class="col-md-6">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31530.415945423592!2d125.53563516399916!3d8.944294675214435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3301eacf2fbf248d%3A0xbdb2d15f74b50da2!2sCamella%20Prima%20Butuan%20%7C%20House%20and%20Lot%20in%20Butuan!5e0!3m2!1sen!2sph!4v1673544468453!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-								</div>
+								{{-- <div class="map-container">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31530.415945423592!2d125.53563516399916!3d8.944294675214435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3301eacf2fbf248d%3A0xbdb2d15f74b50da2!2sCamella%20Prima%20Butuan%20%7C%20House%20and%20Lot%20in%20Butuan!5e0!3m2!1sen!2sph!4v1673544468453!5m2!1sen!2sph" width="600" height="450" style="border:0; width: 100%; height: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+								 </div> --}}
 							</div>
 	</div>
+
+	<div class="map-container">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31530.415945423592!2d125.53563516399916!3d8.944294675214435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3301eacf2fbf248d%3A0xbdb2d15f74b50da2!2sCamella%20Prima%20Butuan%20%7C%20House%20and%20Lot%20in%20Butuan!5e0!3m2!1sen!2sph!4v1673544468453!5m2!1sen!2sph" width="600" height="450" style="border:0; width: 100%; height: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	 </div>
+
+	
  
 	</section>
 	<footer>

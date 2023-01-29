@@ -48,8 +48,8 @@
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
 						<li><a class="{{Request::routeIs('landing.index') ? 'active' : ''}}" href="{{route('landing.index')}}">Home</a></li>
-						 <li class="dropdown">
-							<a href="{{route('about.index')}}" class="dropdown-toggle">About Us <b class="caret"></b></a>
+						 <li>
+							<a href="{{route('about.index')}}">About Us</a>
 							{{-- <ul class="dropdown-menu">
 								<li><a href="{{route('about.index')}}">Company</a></li>
 								<li><a href="{{route('announcements.index')}}">Announcements</a></li>

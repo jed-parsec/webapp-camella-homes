@@ -49,7 +49,7 @@
                     <ul class="nav navbar-nav">
 						<li><a class="{{Request::routeIs('landing.index') ? 'active' : ''}}" href="{{route('landing.index')}}">Home</a></li>
 						 <li class="dropdown">
-							<a href="{{route('about.index')}}" class="dropdown-toggle">About Us <b class="caret"></b></a>
+							<a href="{{route('about.index')}}">About Us</a>
 							{{-- <ul class="dropdown-menu">
 								<li><a href="{{route('about.index')}}">Company</a></li>
 								<li><a href="{{route('announcements.index')}}">Announcements</a></li>
@@ -76,25 +76,71 @@
         </div>
 	</header><!-- end header -->
 	<section id="inner-headline">
-	<div class="container">
+	{{-- <div class="container">
 		<div class="row">
 			<div class="col-lg-12">
 				<h2 class="pageTitle">About Us</h2>
 			</div>
 		</div>
-	</div>
+	</div> --}}
 	</section>
+
+	<section id="banner">
+	 
+		<!-- Slider -->
+			<div id="main-slider" class="flexslider">
+				<ul class="slides">
+				  
+	
+				  <li>
+					<img src="images/sales_partner.png" alt="" />
+					{{-- <div class="flex-caption">
+						<h1>Announcements</h1><br>
+						<a href="#"><h3>{{$announcement->title}}</h3></a>
+						<p>{{$announcement->description}}</p>
+						
+						
+						
+						 
+					</div>	 --}}
+				  </li>
+					
+				  
+				  
+				  {{-- <li>
+					<img src="img/slides/camella-homes-header1920x700.png" alt="" />
+					<div class="flex-caption">
+						<h1>Announcements</h1><br>
+	
+						<h3>Trendy Home</h3>  
+						 
+					</div>
+				  </li>
+	
+				  <li>
+					<img src="img/slides/camella1_1920x700.png" alt="" />
+					<div class="flex-caption">
+						<h1>Announcements</h1><br>
+	
+						<h3>Gated Villas</h3>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit beatae dolorem enim incidunt harum, ea nobis voluptatem, non eligendi quam fugiat porro cum tenetur qui quia, cumque aliquid odio dolore!</p>  
+						 
+					</div> --}}
+				</ul>
+			</div>
+		<!-- end slider -->
+	 
+		</section>
+
 	<section id="content">
 	<section class="section-padding">
 		<div class="container">
-			<div class="row showcase-section">
-				<div class="col-md-6">
-					<img src="img/about-camela500x272.png" alt="showcase image">
-				</div>
+			<div class="row showcase-section" style="text-align: center; display: flex; justify-content: center; ">
+				
 				
 				<div class="col-md-6">
 					<div class="about-text">
-						<h2><span class="coloured">About</span> Company</h2>
+						<h2><span class="coloured">About</span> Camella Butuan</h2>
 						<p>Camella Butuan is being developed by Vista Land, the same company that built Crosswinds, a world-class Swiss-inspired exclusive community in Tagaytay City. Expect the same level of engineering expertise and customer satisfaction from Vista Land when you buy your house and lot in Camella Butuan. You will have peace of mind as construction of houses according to the contracted specifications and schedule has been our trademark. </p>
 						 <p>Vista Land has almost 40 years of experience in building quality homes throughout the nation. Thus making Vista Land the Philippine's largest homebuilder. It is the market leader by far in terms of total number of quality houses built, having constructed more than 250,000 homes in 31 provinces, and 63 cities and municipalities in Luzon, Visayas and Mindanao. Vista Land continues to solidify the status of Camella as a truly national brand and signifies the most-trusted brand in property development. </p>
 					</div>
