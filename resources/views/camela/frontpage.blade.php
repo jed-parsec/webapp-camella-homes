@@ -204,7 +204,7 @@
 				</div>
 				<div class="col-md-6 col-sm-6">
 					<div class="about-image">
-						<img src="img/about_camela.png" alt="About Images">
+						<img src="images/frontpage-camella-pic.jpg" alt="About Images">
 					</div>
 				</div>
 			</div>

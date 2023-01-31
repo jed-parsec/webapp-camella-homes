@@ -130,7 +130,7 @@
                                 <img src="img/works/grande_greta.png" class="img-responsive" alt="1st gallery Thumb">
                                 <div class="image-overlay"></div>
                                 <a href="img/works/grande_greta.png" class="gallery-zoom"><i class="fa fa-eye"></i></a>
-                                <a href="#" class="gallery-link"><i class="fa fa-link"></i></a>
+                                {{-- <a href="#" class="gallery-link"><i class="fa fa-ink"></i></a> --}}
                             </div>
                             <div class="gallery-details">
                             	<div class="editContent">
@@ -158,7 +158,7 @@
                                 <img src="img/works/grande_freya.png" class="img-responsive" alt="1st gallery Thumb">
                                 <div class="image-overlay"></div>
                                 <a href="img/works/grande_freya.png" class="gallery-zoom"><i class="fa fa-eye"></i></a>
-                                <a href="#" class="gallery-link"><i class="fa fa-link"></i></a>
+                                {{-- <a href="#" class="gallery-link"><i class="fa fa-link"></i></a> --}}
                             </div>
                             <div class="gallery-details">
                             	<div class="editContent">
@@ -191,7 +191,7 @@
                                 <img src="img/works/l-series_ezabelle.png" class="img-responsive" alt="2nd gallery Thumb">
                                 <div class="image-overlay"></div>
                                 <a href="img/works/l-series_ezabelle.png" class="gallery-zoom"><i class="fa fa-eye"></i></a>
-                                <a href="#" class="gallery-link"><i class="fa fa-link"></i></a>
+                                {{-- <a href="#" class="gallery-link"><i class="fa fa-link"></i></a> --}}
                             </div>
                             <div class="gallery-details">
                             	<div class="editContent">
@@ -220,7 +220,7 @@
                                 <img src="img/works/l-series_criselle.png" class="img-responsive" alt="2nd gallery Thumb">
                                 <div class="image-overlay"></div>
                                 <a href="img/works/l-series_criselle.png" class="gallery-zoom"><i class="fa fa-eye"></i></a>
-                                <a href="#" class="gallery-link"><i class="fa fa-link"></i></a>
+                                {{-- <a href="#" class="gallery-link"><i class="fa fa-link"></i></a> --}}
                             </div>
                             <div class="gallery-details">
                             	<div class="editContent">
@@ -248,7 +248,7 @@
                                 <img src="img/works/easyhome_ella.png" class="img-responsive" alt="4th gallery Thumb">
                                 <div class="image-overlay"></div>
                                 <a href="img/works/easyhome_ella.png" class="gallery-zoom"><i class="fa fa-eye"></i></a>
-                                <a href="#" class="gallery-link"><i class="fa fa-link"></i></a>
+                                {{-- <a href="#" class="gallery-link"><i class="fa fa-link"></i></a> --}}
                             </div>
                             <div class="gallery-details">
                             	<div class="editContent">
@@ -274,7 +274,7 @@
                                 <img src="img/works/easyhome_dani.png" class="img-responsive" alt="4th gallery Thumb">
                                 <div class="image-overlay"></div>
                                 <a href="img/works/easyhome_dani.png" class="gallery-zoom"><i class="fa fa-eye"></i></a>
-                                <a href="#" class="gallery-link"><i class="fa fa-link"></i></a>
+                                {{-- <a href="#" class="gallery-link"><i class="fa fa-link"></i></a> --}}
                             </div>
                             <div class="gallery-details">
                             	<div class="editContent">
@@ -302,7 +302,7 @@
                                 <img src="img/works/easyhome_cara.png" class="img-responsive" alt="4th gallery Thumb">
                                 <div class="image-overlay"></div>
                                 <a href="img/works/easyhome_cara.png" class="gallery-zoom"><i class="fa fa-eye"></i></a>
-                                <a href="#" class="gallery-link"><i class="fa fa-link"></i></a>
+                                {{-- <a href="#" class="gallery-link"><i class="fa fa-link"></i></a> --}}
                             </div>
                             <div class="gallery-details">
                             	<div class="editContent">
@@ -329,7 +329,7 @@
                                 <img src="img/works/easyhome_bella.png" class="img-responsive" alt="4th gallery Thumb">
                                 <div class="image-overlay"></div>
                                 <a href="img/works/easyhome_bella.png" class="gallery-zoom"><i class="fa fa-eye"></i></a>
-                                <a href="#" class="gallery-link"><i class="fa fa-link"></i></a>
+                                {{-- <a href="#" class="gallery-link"><i class="fa fa-link"></i></a> --}}
                             </div>
                             <div class="gallery-details">
                             	<div class="editContent">
@@ -356,7 +356,7 @@
                                 <img src="img/works/easyhome_alli.png" class="img-responsive" alt="4th gallery Thumb">
                                 <div class="image-overlay"></div>
                                 <a href="img/works/easyhome_alli.png" class="gallery-zoom"><i class="fa fa-eye"></i></a>
-                                <a href="#" class="gallery-link"><i class="fa fa-link"></i></a>
+                                {{-- <a href="#" class="gallery-link"><i class="fa fa-link"></i></a> --}}
                             </div>
                             <div class="gallery-details">
                             	<div class="editContent">
@@ -383,7 +383,7 @@
                                 <img src="img/works/townhouse_arielle.png" class="img-responsive" alt="4th gallery Thumb">
                                 <div class="image-overlay"></div>
                                 <a href="img/works/townhouse_arielle.png" class="gallery-zoom"><i class="fa fa-eye"></i></a>
-                                <a href="#" class="gallery-link"><i class="fa fa-link"></i></a>
+                                {{-- <a href="#" class="gallery-link"><i class="fa fa-link"></i></a> --}}
                             </div>
                             <div class="gallery-details">
                             	<div class="editContent">
@@ -410,7 +410,7 @@
                                 <img src="img/works/lot-only_110sqm.png" class="img-responsive" alt="1st gallery Thumb">
                                 <div class="image-overlay"></div>
                                 <a href="img/works/lot-only_110sqm.png" class="gallery-zoom"><i class="fa fa-eye"></i></a>
-                                <a href="#" class="gallery-link"><i class="fa fa-link"></i></a>
+                                {{-- <a href="#" class="gallery-link"><i class="fa fa-link"></i></a> --}}
                             </div>
                             <div class="gallery-details">
                             	<div class="editContent">

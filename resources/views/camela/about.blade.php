@@ -249,6 +249,7 @@
 								
 							</div>
 							
+							
 							<div class="col-md-4">
 								<div class="block-heading-two">
 									<h3><span>Our Five Pillars</span></h3>
@@ -289,6 +290,11 @@
 						</div>
 						
 						 	<section class="section-padding">
+								<div class="col-md-6 col-sm-6">
+									<div class="about-image">
+										<img src="images/why-choose-camella.jpg" alt="About Images">
+									</div>
+								</div>
 		<div class="container">
 		 
 			 
